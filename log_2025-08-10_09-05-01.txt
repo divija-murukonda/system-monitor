@@ -1,0 +1,25 @@
+Timestamp: 2025-08-10_09-05-01
+
+=== CPU and Memory Usage ===
+top - 09:05:01 up 8 min,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  27 total,   1 running,  26 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7792.2 total,   6745.1 free,    467.9 used,    733.9 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7324.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21532  12132   9188 S   0.0   0.2   0:00.76 systemd
+      2 root      20   0    3060   1920   1792 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3108   1896   1792 S   0.0   0.0   0:00.09 init
+     52 root      19  -1   66832  15332  14436 S   0.0   0.2   0:03.10 systemd+
+     98 root      20   0   25136   6272   4992 S   0.0   0.1   0:00.12 systemd+
+    158 systemd+  20   0   21452  12672  10496 S   0.0   0.2   0:00.12 systemd+
+    159 systemd+  20   0   91020   7552   6784 S   0.0   0.1   0:00.13 systemd+
+    165 root      20   0    4236   2560   2432 S   0.0   0.0   0:00.00 cron
+    166 message+  20   0    9536   4736   4352 S   0.0   0.1   0:00.33 dbus-da+
+    182 root      20   0   17964   8448   7552 S   0.0   0.1   0:00.14 systemd+
+    184 root      20   0 1756096  12032  10240 S   0.0   0.2   0:00.08 wsl-pro+
+    199 root      20   0    3160   2048   1920 S   0.0   0.0   0:00.00 agetty
+    204 syslog    20   0  222508   5120   4224 S   0.0   0.1   0:00.07 rsyslogd
+
+=== Last 50 Commands ===
