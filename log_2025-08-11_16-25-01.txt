@@ -1,0 +1,75 @@
+Timestamp: 2025-08-11_16-25-01
+
+=== CPU and Memory Usage ===
+top - 16:25:20 up 12 min,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  32 total,   1 running,  31 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7792.2 total,   7247.1 free,    493.8 used,    202.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7298.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21564  12112   9168 S   0.0   0.2   0:00.86 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3108   1888   1792 S   0.0   0.0   0:00.07 init
+     52 root      19  -1   66836  15084  14188 S   0.0   0.2   0:04.37 systemd+
+     97 root      20   0   25136   6144   4864 S   0.0   0.1   0:00.13 systemd+
+    158 systemd+  20   0   21452  12800  10624 S   0.0   0.2   0:00.13 systemd+
+    159 systemd+  20   0   91020   7552   6784 S   0.0   0.1   0:00.16 systemd+
+    168 root      20   0    4236   2560   2432 S   0.0   0.0   0:00.00 cron
+    169 message+  20   0    9632   4608   4224 S   0.0   0.1   0:00.42 dbus-da+
+    176 root      20   0   17964   8320   7552 S   0.0   0.1   0:00.17 systemd+
+    179 root      20   0 1755584  11904  10240 S   0.0   0.1   0:00.08 wsl-pro+
+    182 root      20   0    3160   2048   1920 S   0.0   0.0   0:00.01 agetty
+    188 syslog    20   0  222508   5504   4480 S   0.0   0.1   0:00.08 rsyslogd
+
+=== Last 50 Commands ===
+git branch -M main
+git push -u origin main
+ssh-keygen -t ed25519 -C "divijamurukonda@gmail.com"
+git remote set-url origin git@github.com:divija-murukonda/system-monitor.git
+nano ~/system-monitor/monitor.sh
+chmod +x monitor.sh
+crontab -e
+cat /home/divija/system-monitor/cron.log
+cat cron.log
+crontab -e
+vi cron.log
+crontab -l
+cat /etc/redhat-release
+vi q1.sh
+vi q1_output.sh
+vi q1_output.txt
+vi q1.sh
+./q1.sh
+ssh -i divija_aws.pem ec2-user@16.171.55.154
+cd .ssh
+ls
+cat id_rsa.pub
+ssh -i divija_aws.pem ec2-user@16.171.55.154
+ssh ec2-user@16.171.55.154
+vi q1.sh
+./q1.sh
+vi q1.sh
+chmod +x q1.sh
+./q1.sh
+cd ..
+vi q1.sh
+chmod +x q1.sh
+./q1.sh
+vi q1_output.txt
+vi shiftlines.sh
+./shiftlines.sh inp.txt op.txt 2
+vi inp.txt
+vi op.txt
+vi q1.sh
+vi orders.txt
+vim orders.txt
+ls ~/system-monitor/log_*.txt
+cat ~/home/divija/system-monitor/log_2025-08-11_09-30-01.txt
+cat ~system-monitor/log_2025-08-11_09-30-01.txt
+cat ~/system-monitor/log_2025-08-11_09-30-01.txt
+cd ~/system-monitor
+git log --oneline
+vim orders.txt
+cd ..
+vim orders.txt
