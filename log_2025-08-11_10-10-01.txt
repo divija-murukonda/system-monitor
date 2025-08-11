@@ -1,0 +1,75 @@
+Timestamp: 2025-08-11_10-10-01
+
+=== CPU and Memory Usage ===
+top - 10:10:01 up  2:44,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  29 total,   1 running,  27 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.1 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7792.2 total,   6822.5 free,    507.3 used,    619.4 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7284.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5112 divija    20   0    9284   5248   3200 R   8.3   0.1   0:00.02 top
+      1 root      20   0   21508  12236   9420 S   0.0   0.2   0:06.24 systemd
+      2 root      20   0    3060   1792   1792 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3108   1832   1792 S   0.0   0.0   0:00.48 init
+     52 root      19  -1   66840  14980  14084 S   0.0   0.2   0:54.27 systemd+
+    101 root      20   0   25268   6144   4864 S   0.0   0.1   0:00.64 systemd+
+    148 systemd+  20   0   21452  12544  10496 S   0.0   0.2   0:00.90 systemd+
+    159 systemd+  20   0   91020   7680   6784 S   0.0   0.1   0:01.75 systemd+
+    168 root      20   0    4236   2560   2432 S   0.0   0.0   0:00.04 cron
+    170 message+  20   0    9532   4992   4480 S   0.0   0.1   0:04.81 dbus-da+
+    184 root      20   0   17964   8576   7680 S   0.0   0.1   0:01.71 systemd+
+    188 root      20   0 1756096  13184  10496 S   0.0   0.2   0:00.50 wsl-pro+
+    197 syslog    20   0  222508   5248   4224 S   0.0   0.1   0:00.60 rsyslogd
+
+=== Last 50 Commands ===
+vi q1.sh
+./q1.sh
+vi q1_output.txt
+vi q2.sh
+./q2.sh
+chmod +x q2.sh
+./q2.sh
+vi q2_output.sh
+./q2.sh
+vi q2_output.txt
+vi q3.sh
+chmod +x q3.sh
+./q3.sh
+vi q3_output.txt
+vi q4.sh
+chmod +x q4.sh
+./q4.sh
+vi q4_output.txt
+vi orders.txt
+cd ~
+git clone https://github.com/divija-murukonda/system-monitor.git
+cd system-monitor
+nano monitor.sh
+chmod +x monitor.sh
+git config --global user.name "divija-murukonda"
+git config --global user.email "divijamurukonda@gmail.com"
+crontab -e
+cd ~/system-monitor
+touch README.md
+git add README.md
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+cd ~/system-monitor
+touch README.md
+git add README.md
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+ssh-keygen -t ed25519 -C "divijamurukonda@gmail.com"
+git remote set-url origin git@github.com:divija-murukonda/system-monitor.git
+nano ~/system-monitor/monitor.sh
+chmod +x monitor.sh
+crontab -e
+cat /home/divija/system-monitor/cron.log
+cat cron.log
+crontab -e
+vi cron.log
+crontab -l
+cat /etc/redhat-release
